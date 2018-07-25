@@ -1,7 +1,5 @@
 # BackStopJS Sample Project
 
-# Project Title
-
 This project is aimed at introducing how to use BackStopJS, a node module built by Garris Shipon, on a website built with HTML/HTML5, CSS/CSS3, Javascript, jQuery, Bootstrap.
 
 ## Getting Started
@@ -16,7 +14,7 @@ What things you need to install the software and how to install them
 node & npm
 ```
 
-### Installing
+### Installation and workflow
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -29,9 +27,7 @@ cd path/to/your/project
 npm install
 
 ```
-cd path/to/your/project/node_modules/backstopjs
-
-npm run genConfig
+backstop init
 ```
 
 ## Running the tests
@@ -40,12 +36,12 @@ How to run the automated tests
 
 ## First
 ```
-npm run reference
+backstop test
 ```
 
-## Second 
+## Second (Run this command in order to update your references)
 ```
-backstop test
+backstop approve
 ```
 
 ## THEN VIEW THE WONDERFUL REPORT AT THE END

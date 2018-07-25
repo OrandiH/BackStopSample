@@ -10,6 +10,10 @@ body {
       padding-left: 120px;
       border: none;
   }
+
+  .toogle{
+      color: #fff;
+  }
   
   .navbar {
     border-bottom: #008ed6 3px solid;
